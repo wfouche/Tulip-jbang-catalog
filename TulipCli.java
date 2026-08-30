@@ -1038,7 +1038,7 @@ public class TulipCli {
             """
             ///usr/bin/env jbang "$0" "$@" ; exit $?
 
-            //DEPS org.python:jython-standalone:2.7.4
+            //DEPS org.python:jython-standalone:2.7.5b1
             //DEPS io.github.tulipltt:tulip-runtime:__TULIP_VERSION__
             //JAVA __TULIP_JAVA_VERSION__
             //RUNTIME_OPTIONS __TULIP_JAVA_OPTIONS__
@@ -1060,7 +1060,7 @@ public class TulipCli {
             from __future__ import print_function
 
             # /// jbang
-            # requires-jython = "2.7.4"
+            # requires-jython = "2.7.5b1"
             # requires-java = "__TULIP_JAVA_VERSION__"
             # dependencies = [
             #   "io.github.tulipltt:tulip-runtime:__TULIP_VERSION__"
